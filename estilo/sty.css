@@ -51,7 +51,7 @@ section p {
     
 }
 
-#sec2 {
+.imagem {
     background: url('../imagens/background001.jpg') right top no-repeat fixed;
     background-size: cover;
     text-align: left;
@@ -59,33 +59,23 @@ section p {
     height: 70vw;
     position: relative;
 }
-#sec2 p {
+.p-img {
     background-color: rgba(0, 0, 0, 0.405);
     width: 41vw;
     padding: 10px;
     text-shadow: 1px 1px 3px black;
     position: absolute;
 
-    left: 5%;
-    top: 15%;
-}
-#sec4 {
-    background: url('../imagens/background002.jpg') center center no-repeat fixed;
-    background-size: cover;
-    text-align: left;
-    color: white;
-    height: 70vw;
-    position: relative;
-}
-#sec4 p {
-    background-color: rgba(0, 0, 0, 0.405);
-    width: 42vw;
-    padding: 10px;
-    text-shadow: 1px 1px 3px black;
-    position: absolute;
+    left: 50%;
+    top: 50%;
 
-    left: 5%;
-    top: 15%;
+    transform: translate(-50%, -50%);
+}
+#img2{
+    background-image: url('../imagens/background002.jpg');
+}
+#p-img2{
+    width: 42vw;
 }
 footer{
     margin-top: 2em;
