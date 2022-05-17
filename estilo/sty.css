@@ -41,10 +41,12 @@ header a:hover{
 main section{
     text-align: center;
     font-family: var(--fonte-conteudo);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 section p {
-    padding: 60px;
+    padding-bottom: 2.5em;
     
 }
 
@@ -74,7 +76,7 @@ section p {
     width: 42vw;
 }
 footer{
-    margin-top: 2em;
+    margin-top: 1em;
     background-color: black;
     color:white;
     text-align: center;
